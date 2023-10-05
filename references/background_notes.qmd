@@ -1,0 +1,69 @@
+---
+title: "Background Notes"
+author: "Savannah Hammerton"
+format: html
+bibliography: VE-AgDist.bib 
+toc: true
+toc-float: true
+---
+
+# Methods Notes
+
+## [@tricco13]
+
+- SRMA
+
+-   Based on 34 RCTs from 1970-2009 (conducted 1070-2009, some publications from 2010/2011)
+
+-   Two types of mismatch for flu B, but only one for flu A
+
+    -   Flu B "mismatched by antigenic drift": antigenically distinct from flu B vaccine strains
+
+    -   Flu B "mismatched by lineage": different lineages
+
+    -   Flu A "mismatched by antigenic drift": antigenically distinct from flu A vaccine strains as per HI typing OR different subtype (e.g. H1N1 vs H3N2)
+
+    -   Not sure why they didn't have mismatch by subtype for flu A
+
+-   Used data from surveillance systems when circulating strain wasn't reported in paper. "These included WHO weekly epidemiological records, Mortality and Morbidity Reports Weekly (MMRW), Chinese National Influenza Center, and CDC influenza summary reports. These data were sometimes captured through correspondence with trial authors."
+
+-   VE = (1 - RR) * 100%
+
+-   Combination of studies on children, adults, and seniors
+
+## [@belongia16]
+
+-   SRMA
+
+-   Based on 56 test-negative studies from 2007-2015
+
+-   Mismatch was not focus of paper, but was included for H3N2
+
+-   Based match/mismatch on author's interpretation
+    
+    -   Antigenic match if they are "predominantly matched"
+    
+    -   Antigenic variant if they are "predominantly variant"
+    
+    -   Could also be "mixed"
+    
+-   VE = 100 * (1 - adjusted OR) for vaccine receipt in influenza positive vs influenza negative individuals
+
+-   Stratified analyses for age groups <20 years, 20-64, and >60 years (all three of these are for GROUPS, not individuals)
+
+# Results Notes
+
+## [@tricco13]
+
+-   Generally, there was still protection conveyed in mismatched comparisons, but it was usually not as high as protection in matched comparisons (there were often overlapping CIs, though)
+-   Acknowledged potential limitations due to their mismatch definitions - us treating this as a continuous variable seems like it would solve that issue.
+
+## [@belongia16]
+
+-   Genetic characterization results only reported for 56% of H3N2 VE estimates
+
+    -   12 were predominantly similar, 6 were variant
+    
+-   23% (95% CI 2-40) VE in variant strains, 33% (95% CI 22-43) in similar strains
+
+# References
